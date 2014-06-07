@@ -1,0 +1,6 @@
+node_modules/
+.DS_Cache
+*.js
+cache/
+!views/lib/
+!views/lib/*.js

@@ -1,0 +1,1 @@
+curl -I "https://itunes.apple.com/us/app/pof-free-online-dating/id389638243?mt=8&uo=4" | grep "x-apple-application-instance"
