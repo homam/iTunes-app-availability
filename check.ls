@@ -64,6 +64,7 @@ test-url = (us-link, countries) ->
 		url = url-for-country us-link, c
 		console.log "checking #c, #url"
 		app-exists url |> fmapP (e) -> 
+			console.log "#c = #e"
 			save(c, e)
 			[c, e]
 
