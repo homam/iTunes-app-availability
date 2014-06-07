@@ -1,0 +1,31 @@
+{
+  "name": "iTunes-app-availability",
+  "version": "0.0.0",
+  "description": "",
+  "main": "server.ls",
+  "dependencies": {
+    "async-ls": "~0.0.1",
+    "ejs": "~1.0.0",
+    "body-parser": "~1.3.0",
+    "express": "~4.4.1",
+    "method-override": "~2.0.2",
+    "prelude-ls": "~1.1.1",
+    "morgan": "~1.1.1",
+    "request": "~2.36.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/homam/iTunes-app-availability.git"
+  },
+  "author": "Homam <homam@live.com> (http://homam.me/)",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/homam/iTunes-app-availability/issues"
+  },
+  "homepage": "https://github.com/homam/iTunes-app-availability"
+}
