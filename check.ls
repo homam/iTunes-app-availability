@@ -65,7 +65,7 @@ test-url = (us-link, countries) ->
 		fs.writeFileSync file-name, JSON.stringify(cache)
 
 	save null, null
-	countries |> serial-map (c) ->
+	countries |> parallel-limited-map 4, (c) ->
 		url = url-for-country us-link, c
 		console.log "checking #c, #url"
 		app-exists url |> fmapP (e) -> 
